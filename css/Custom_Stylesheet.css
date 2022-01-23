@@ -1,0 +1,134 @@
+h1,h2,h3,h4,h5,h6,p,header,a,footer {
+    margin: 0; padding: 0;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.cust-nav {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.85em;
+}
+
+/* Carousel */
+.cust-margin {
+    padding-top: 50px;
+}
+
+.cust-carousel {
+    text-align: left;
+    color: #ffffff;
+    padding: 0 20px 0 20px;
+}
+
+/* Formating */
+h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+h2,h3,h4,h5,h6 {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    padding: 0 0 15px 0;
+}
+
+.f2i-intro {
+    font-size: 1.8em;
+    color: #939393;
+    font-weight: 300;
+    line-height: 40px;
+    padding: 0 0 30px 0;
+}
+
+p {
+    padding: 0 0 20px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.image {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-icon {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.image-icon2 {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+a:hover {
+    color: #f2c94c;
+}
+
+.divide {
+    border-bottom: 1px solid #d4d4d4;
+}
+
+img {
+    margin: 0 0 30px 0;
+}
+
+/* Lists */
+
+footer {
+    color: #ffffff;
+    font-size: 0.95em;;
+    background-color: #006848;
+    margin: 30px 0 0 0;
+    padding: 40px 0 20px 0;
+    position: relative;
+}
+
+/* Margins */
+.cust-margin {
+    margin: 20px 0 20px 0;
+}
+
+.chapters {
+    padding: 30px 0 20px 0;
+}
+
+main {
+    padding: 20px;
+    background-color: #f2c94c;
+    height: 170px;
+    margin: 0 0 20px 0;
+}
+
+aside {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #eeeeee;
+}
+
+
+/* Colors */
+#f2iwhite {color: #ffffff;}
+#f2igreen {color: #006848;}
+#f2ilimegreen {color: #008557;}
+#f2ired {color: #ee3124;}
+#f2iyellow {color: #f2c94c;}
+#f2igrey1 {color: #949494;}
+
+/* Background colors */
+#f2igreenbg {background-color: #006848;}
+#f2ilimegreenbg {background-color: #008557;}
+#f2iredbg {background-color: #ee3124;}
+#f2iyellowbg {background-color: #f2c94c;}
+#f2igreybg {background-color: #eeeeee;}
