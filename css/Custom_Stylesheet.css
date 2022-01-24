@@ -138,6 +138,16 @@ aside {
         margin: 0;
     }
 
+    .carousel-cap {
+        position:absolute;
+        right:0%;
+        bottom:1.25rem;
+        left:0%;
+        padding-top:1.25rem;
+        padding-bottom:1.25rem;
+        color:#fff;text-align:center
+    }
+
     .f2i-intro {
         font-size: 1.3em;
         color: #939393;
@@ -158,14 +168,14 @@ aside {
     }
 
     h1 {
-        font-size: 1em;
+        font-size: 0.25em;
         text-align: left;
         text-transform: uppercase;
         font-family: 'Oswald', sans-serif;
     }
 
     .open {
-        font-size: 1.3em;
+        font-size: 1em;
     }
 }
 
@@ -175,6 +185,16 @@ aside {
         width: 80%;
         padding: 0;
         margin: 0;
+    }
+
+    .carousel-cap {
+        position:absolute;
+        right:10%;
+        bottom:1.25rem;
+        left:10%;
+        padding-top:1.25rem;
+        padding-bottom:6rem;
+        color:#fff;text-align:center
     }
 
     .image-alter {
@@ -201,14 +221,14 @@ aside {
     }
 
     h1 {
-        font-size: 2em;
+        font-size: 3em;
         text-align: left;
         text-transform: uppercase;
         font-family: 'Oswald', sans-serif;
     }
 
     .open {
-        font-size: 0.85em;
+        font-size: 1em;
     }
 }
 
@@ -218,6 +238,16 @@ aside {
         width: 90%;
         padding: 0;
         margin: 0;
+    }
+
+    .carousel-cap {
+        position:absolute;
+        right:15%;
+        bottom:1.25rem;
+        left:15%;
+        padding-top:1.25rem;
+        padding-bottom:1.25rem;
+        color:#fff;text-align:center
     }
 
     .image-alter {
@@ -263,6 +293,16 @@ aside {
         width: 100%;
         padding: 0;
         margin: 0;
+    }
+
+    .carousel-cap {
+        position:absolute;
+        right:15%;
+        bottom:1.25rem;
+        left:15%;
+        padding-top:1.25rem;
+        padding-bottom:1.25rem;
+        color:#fff;text-align:center
     }
 
     .image-alter {
