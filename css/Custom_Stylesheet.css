@@ -4,6 +4,11 @@ h1,h2,h3,h4,h5,h6,p,header,a,footer {
 
 body {
     font-family: 'Fira Sans', sans-serif;
+    padding-top: 10px;
+}
+
+.navbar-nav {
+    padding: 30px 0 0 0;
 }
 
 .cust-nav {
@@ -17,31 +22,17 @@ body {
     padding-top: 50px;
 }
 
-.cust-carousel {
-    text-align: left;
-    color: #ffffff;
-    padding: 0 20px 0 20px;
-}
-
 /* Formating */
-h1 {
+/* h1 {
     font-size: 4em;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-}
+} */
 
 h2,h3,h4,h5,h6 {
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     padding: 0 0 15px 0;
-}
-
-.f2i-intro {
-    font-size: 1.8em;
-    color: #939393;
-    font-weight: 300;
-    line-height: 40px;
-    padding: 0 0 30px 0;
 }
 
 p {
@@ -132,3 +123,165 @@ aside {
 #f2iredbg {background-color: #ee3124;}
 #f2iyellowbg {background-color: #f2c94c;}
 #f2igreybg {background-color: #eeeeee;}
+
+/* Media Queries */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 390px) {
+    .my-logo {
+        width: 90%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .f2i-intro {
+        font-size: 1.3em;
+        color: #939393;
+        font-weight: 300;
+        line-height: 30px;
+        padding: 0 0 30px 0;
+    }
+
+    .carousel-inner {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cust-carousel {
+        text-align: left;
+        color: #ffffff;
+        padding: 0 20px 0 20px;
+    }
+
+    h1 {
+        font-size: 1em;
+        text-align: left;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .open {
+        font-size: 1.3em;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .my-logo {
+        width: 80%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .f2i-intro {
+        font-size: 1.8em;
+        color: #939393;
+        font-weight: 300;
+        line-height: 40px;
+        padding: 0 0 30px 0;
+    }
+
+    .carousel-inner {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cust-carousel {
+        text-align: left;
+        color: #ffffff;
+        padding: 0 20px 0 20px;
+    }
+
+    h1 {
+        font-size: 3em;
+        text-align: left;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .open {
+        font-size: 1.3em;;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .my-logo {
+        width: 90%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .f2i-intro {
+        font-size: 1.8em;
+        color: #939393;
+        font-weight: 300;
+        line-height: 40px;
+        padding: 0 0 30px 0;
+    }
+
+    .carousel-inner {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cust-carousel {
+        text-align: left;
+        color: #ffffff;
+        padding: 0 20px 0 20px;
+    }
+
+    h1 {
+        font-size: 4em;
+        text-align: left;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .open {
+        font-size: 1.3em;;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .my-logo {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .f2i-intro {
+        font-size: 1.8em;
+        color: #939393;
+        font-weight: 300;
+        line-height: 40px;
+        padding: 0 0 30px 0;
+    }
+
+    .carousel-inner {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cust-carousel {
+        text-align: left;
+        color: #ffffff;
+        padding: 0 20px 0 20px;
+    }
+
+    h1 {
+        font-size: 4em;
+        text-align: left;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .open {
+        font-size: 1.3em;;
+    }
+}
