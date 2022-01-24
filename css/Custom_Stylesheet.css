@@ -201,7 +201,7 @@ aside {
     }
 
     h1 {
-        font-size: 3em;
+        font-size: 2em;
         text-align: left;
         text-transform: uppercase;
         font-family: 'Oswald', sans-serif;
@@ -209,12 +209,6 @@ aside {
 
     .open {
         font-size: 0.85em;
-    }
-
-    .carousel-slide-height {
-        height: 230px;
-        width: 1auto;
-        background-color: #006848;
     }
 }
 
@@ -261,12 +255,6 @@ aside {
     .open {
         font-size: 0.85em;
     }
-
-    .carousel-slide-height {
-        height: 230px;
-        width: 1auto;
-        background-color: #006848;
-    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -309,11 +297,5 @@ aside {
 
     .open {
         font-size: 1em;
-    }
-
-    .carousel-slide-height {
-        height: 375px;
-        width: 1auto;
-        background-color: #006848;
     }
 }
