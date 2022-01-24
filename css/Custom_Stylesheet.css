@@ -177,6 +177,10 @@ aside {
         margin: 0;
     }
 
+    .image-alter {
+        padding: 100px 0 0 0;
+    }
+
     .f2i-intro {
         font-size: 1.8em;
         color: #939393;
@@ -204,7 +208,13 @@ aside {
     }
 
     .open {
-        font-size: 1.3em;;
+        font-size: 0.85em;
+    }
+
+    .carousel-slide-height {
+        height: 230px;
+        width: 1auto;
+        background-color: #006848;
     }
 }
 
@@ -216,6 +226,10 @@ aside {
         margin: 0;
     }
 
+    .image-alter {
+        width: 100%;
+    }
+
     .f2i-intro {
         font-size: 1.8em;
         color: #939393;
@@ -233,17 +247,25 @@ aside {
         text-align: left;
         color: #ffffff;
         padding: 0 20px 0 20px;
+        margin-left: 0px;
+        padding-left: 0px;
     }
 
     h1 {
-        font-size: 4em;
+        font-size: 2em;
         text-align: left;
         text-transform: uppercase;
         font-family: 'Oswald', sans-serif;
     }
 
     .open {
-        font-size: 1.3em;;
+        font-size: 0.85em;
+    }
+
+    .carousel-slide-height {
+        height: 230px;
+        width: 1auto;
+        background-color: #006848;
     }
 }
 
@@ -255,6 +277,10 @@ aside {
         margin: 0;
     }
 
+    .image-alter {
+        width: 100%;
+    }
+
     .f2i-intro {
         font-size: 1.8em;
         color: #939393;
@@ -282,6 +308,12 @@ aside {
     }
 
     .open {
-        font-size: 1.3em;;
+        font-size: 1em;
+    }
+
+    .carousel-slide-height {
+        height: 375px;
+        width: 1auto;
+        background-color: #006848;
     }
 }
